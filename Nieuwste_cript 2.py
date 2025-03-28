@@ -136,8 +136,8 @@ def haversine(lat1, lon1, lat2, lon2):
 def load_map_data():
     try:
         # Bestandslocaties
-        flight_data_path = r"C:\Users\nasro\Downloads\flights_today_master (1).csv"
-        station_data_path = r"C:\Users\nasro\Downloads\station_1_clean (1).csv"
+        flight_data_path = r"flights_today_master (1).csv"
+        station_data_path = r"station_1_clean (1).csv"
         
         df = pd.read_csv(flight_data_path)
         df2 = pd.read_csv(station_data_path)
